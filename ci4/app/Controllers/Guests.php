@@ -11,10 +11,8 @@ class Guests extends BaseController
     {
         $model = model(GuestsModel::class);
 
-        $data['guests'] = $model->getGuests();
-		        $data['guests'] = $model->getGuests($email);
-		        $data = [
-            'guests'  => $model->getNews(),
+		$data = [
+            'guests'  => $model->getGuests(),
             'title' => 'Guests Lists',
         ];
 
@@ -25,8 +23,8 @@ class Guests extends BaseController
 
     public function show($email = null)
     {
-        $model = model(GuestModel::class);
-        $data['guests'] = $model->getNews($slug);
+        $model = model(GuestsModel::class);
+        $data['guests'] = $model->getGuests($slug);
 
         if (empty($data['guests'])) {
             throw new PageNotFoundException('Cannot find the guests item: ' . $slug);

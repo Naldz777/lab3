@@ -4,10 +4,10 @@
 
     <?php foreach ($guests as $guests_item): ?>
 
-        <h3><?= esc($guests_item['title']) ?></h3>
+        <h3><?= esc($guests_item['name']) ?></h3>
 
         <div class="main">
-            <?= esc($guests_item['body']) ?>
+            <?= esc($guests_item['name']) ?>
         </div>
         <p><a href="/guests/<?= esc($guests_item['email'], 'url') ?>">View Guest detail</a></p>
 

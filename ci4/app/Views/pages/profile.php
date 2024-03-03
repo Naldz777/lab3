@@ -44,7 +44,7 @@
 		<div class = "content">
 		<div id = "info">	
 			<div id = "info_box">
-				<img src = "AM pic.png" class = "AM_pic">
+				<img src = "images/AM pic.png" class = "AM_pic">
 				<h1> About me</h1>
 				<p>Bata pa lamang si David kinailangan niya nang magbanat ng buto para sa kanyang <br> pamilya. 
 				Sa kabila ng kaniyang paghihirap nanatili ang kaniyang pagiging matatag <br> sa buhay Charot...

@@ -144,13 +144,13 @@ nav ul li a:hover::after{
 #AM{
   color: white;
   z-index: -100;
-  margin-top: -150px;
+  margin-top: -50%;
   overflow: hidden;
   margin-left: -20px;
   border-radius: 15px;
   padding-left: 30px;
   position: relative; 
-  background-image: url('aboutme.png');
+  background-image: url('../images/aboutme.png');
   background-repeat:no-repeat;
   background-size: 100%;
   border-color: black;
@@ -364,7 +364,7 @@ nav ul li a:hover::after{
   overflow: hidden;
   margin-left: -20px;
   padding: 30px;
-  background-image: url('Favotire.png');
+  background-image: url('../images/Favotire.png');
   background-repeat:no-repeat;
   background-size: 100%;
   border-color: black;
